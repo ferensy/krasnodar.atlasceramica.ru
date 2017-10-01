@@ -388,6 +388,82 @@ footer .fa {
 .footer2 a:hover {
 	color: #175ea7;
 }
+
+/* Каталог */
+.catalog .main-p-wrap {
+	margin-bottom: 20px;
+}
+.menu-catalog {
+	background-color: #36353b;
+	color: #fff;
+	padding-left: 28px;
+}
+.menu-catalog label {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #46454a;
+}
+.catalog-title {
+	font-size: 18px !important;
+	font-weight: bold !important;
+	margin: 30px 0;
+	display: block;
+}
+.catalog-title:hover {
+	text-decoration: none;
+}
+.show-more {
+	color: #b1b1b1 !important;
+}
+
+/*Чекбоксы меню каталога */ 
+label {
+	display: block;
+}
+.checkbox {
+    display: none;
+}
+.checkbox-custom {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #b1b1b1;
+	top: 3px;
+}
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+	float: left;
+	font-size: 12px;
+	font-weight: 500;
+}
+.label {
+	position: relative;
+	top: 2px;
+	cursor: pointer;
+}
+ 
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+    content: "\2714";             /* Добавляем наш псевдоэлемент */
+    display: block;          /* Делаем его блочным элементом */
+    position: absolute;      /* Позиционируем его абсолютным образом */
+ 
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+	top: -3px;
+         /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    
+}
+.circle {
+	float: left;
+	margin-left: 6px;
+	width: 12px;
+	height: 12px; 
+	border-radius: 8px;
+	position: relative;
+    top: 3px;
+}
+
 /*Кнопка наверх*/
 /* Back to top button */
 #back-to-top{
