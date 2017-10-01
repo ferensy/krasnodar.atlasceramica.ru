@@ -6,7 +6,7 @@
 }
 .logo {
 	background: url(../img/logo.png) top center no-repeat;
-	width: 170px;
+	min-width: 170px;
 	height: 38px;
 	display: block;
 }
@@ -38,6 +38,10 @@
 	text-decoration: none;
 	transition: .5s;
 }
+.navbar-nav>li>a {
+	padding: 10px 0;
+    line-height: 70px;
+}
 .list-inline a:hover {
 	color: #1f7fe1;
 	text-decoration: underline;
@@ -64,11 +68,12 @@
 	border-top: 2px solid #ebebeb;
 }
 .goods-menu {
-	
+	margin-bottom: 0px;
+	height: 80px;
 }
 .goods-menu a {
 	font-size: 13px;
-	line-height: 80px;
+	line-height: 77px;
 	transition: .5s;
 	text-transform: uppercase;
 	color: #000;
@@ -87,39 +92,328 @@
 	border: 1px solid #b4b2b9;
 	width: 100%;
 	padding-left: 20px;
-	margin-top: 13px;
+	margin-top: 17px;
 }
 
 * {box-sizing: border-box;}
-form {
+.block2 form {
   position: relative;
-  width: 300px;
   margin: 0 auto;
 }
-input, button {
+.block2 button {
   border: none;
   outline: none;
-  border-radius: 3px;
+  border-radius: 18px;
 }
-input {
+.block2 input {
   width: 100%;
   height: 42px;
-  background: #F9F0DA;
   padding-left: 15px;
 }
-button {
-  height: 26px;
-  width: 26px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: #F15B42;
-  cursor: pointer;
+.block2 button {
+	height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 19px;
+    right: 2px;
+	background: #1f7fe1;
+	cursor: pointer;
+	transition: .5s;
 }
-button:before {
-  content: "\f105";
+.block2 button:before {
   font-family: FontAwesome;
   color: #F9F0DA;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
+}
+.block2 button:hover {
+	background: #175ea7;
+}
+.main-field {
+	background-color: #f0f0f0;
+	padding: 48px 0;
+}
+.main-blok-gray {
+	background-color: #36353b;
+	padding: 30px;
+	height: 390px;
+}
+.main-blok-p a {
+	color: #fff;
+	font-size: 13px;
+}
+.main-blok-gray ul {
+	margin: 0;
+	padding: 0;
+}
+.main-blok-gray li {
+	padding: 5px 0 4px;
+	border-bottom: solid 1px #46454a;
+}
+.title-main-block {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+
+.pl-bg {
+	background: url(../img/suprema-pag-10.jpg) center no-repeat;
+}
+.lm-bg {
+	background: url(../img/dub-nortlend-korichnevyy-em80-7196-8188-79077.jpg) center no-repeat;
+}
+.pr-bg {
+	background: url(../img/42464.970.jpg) center no-repeat;
+}
+.li-bg {
+	background: url(../img/laminat-v-interere-768x604.jpg) center no-repeat;
+}
+.right-block-p {
+	height: 390px;
+	color: #fff;
+}
+.cell div {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+.pereiti {
+	font-size: 13px;
+	border-radius: 20px;
+	padding: 12px 20px;
+	border: 1px solid #fff;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+	transition: .5s;
+}
+.pereiti:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #175ea7;
+	border: 1px solid #175ea7;
+}
+.main-p-wrap {
+	padding-right: 0;
+}
+.main-p-wrap>div {
+	background-color: #fff;
+	padding: 9px;
+	position: relative;
+	height: 390px;
+}
+.main-p-wrap img {
+	max-height: 200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.sale {
+	background-color: #f36d00;
+	position: absolute;
+	top:9px;
+	left:9px;
+	padding: 5px 8px;
+	color: #fff;
+	font-size: 13px;
+	
+}
+.plitka-lable {
+	font-size: 13px;
+	text-align: center;
+	border-bottom: 1px solid #b4b2b9;
+	display: block;
+	color: #36353b !important;
+	transition: .5s;
+	padding: 5px 0;
+	
+}
+.plitka-lable:hover {
+	color: #175ea7 !important;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+.price {
+	font-weight: bold;
+	margin-top: 5px;
+}
+.price, .price-sale {
+	float: left;
+}
+.manuf-plitka {
+	float: right;
+	color: #1f7fe1 !important;
+	display: block;
+	font-size: 12px;
+	padding-top: 7px;
+	transition: .5s;
+}
+.manuf-plitka:hover {
+	color: #175ea7 !important;
+	text-decoration: none;
+}
+.price-sale {
+	text-decoration: line-through;
+	color: #88878e;
+}
+.price-wrap {
+	height: 45px;
+}
+.more, .buy {
+	display: block;
+	background-color: #1f7fe1;
+	border-radius: 20px;
+	padding: 9px;
+	margin: 5px;
+	text-align: center;
+	transition: .5s;
+}
+.more:hover, .buy:hover {
+	background-color: #175ea7;
+	text-decoration: none;
+}
+.hit-block {
+	padding: 10px 0;
+	background-color: #fff;
+	margin-top: 48px;
+}
+.hit-title {
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.hit-title span {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.hit-img {
+	float:left;
+	width: 100px;
+	margin-right: 13px;
+}
+.hit-img img {
+	width: 100%;
+	max-height: 100px;
+}
+.hit-block .plitka-lable {
+	text-align: left;
+	border: none;
+	padding: 3px 0;
+
+}
+.hit-block .price, .hit-block .price-sale {
+	float: none;
+	margin: 0;
+}
+.main-blok-l, .main-blok-pr {
+	margin-top: 48px;
+}
+.manuf-block {
+	padding: 10px 0;
+	background-color: #fff;
+	margin-top: 48px;
+}
+.manuf-block img {
+	width: 80%;
+	vertical-align: middle;
+}
+.manuf-img {
+	height: 130px;
+    max-height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+.logo-gray {
+	background: url(../img/logo-bg.png) top center no-repeat;
+	width: 119px;
+	height: 26px;
+	display: block;
+	margin-bottom: 20px;
+}
+footer {
+	margin-top: 48px;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+footer li {
+	list-style-type: none;
+	margin-bottom: 8px;
+}
+footer a {
+	font-size: 13px;
+	color: #36353b;
+	padding: 3px;
+	transition: .5s;
+}
+footer a:hover {
+	color: #175ea7;
+	text-decoration: none;
+}
+footer .fa {
+	font-size: 20px;
+}
+.footer-title {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.footer-adress {
+	font-size: 13px;
+}
+.footer-adress span {
+	color: #88878e;
+}
+.footer1 {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #b4b2b9;
+}
+.footer2 {
+	padding: 20px 0 20px;
+	font-size: 13px;
+	color: #88878e;
+}
+.footer2 a {
+	color: #1f7fe1;
+}
+.footer2 a:hover {
+	color: #175ea7;
+}
+/*Кнопка наверх*/
+/* Back to top button */
+#back-to-top{
+	position:fixed; 
+	z-index: 999; 
+	display:none; 
+	bottom:70px; 
+	right:15px; 
+	cursor:pointer;
+}
+#back-to-top i{
+	width: 50px; 
+	height: 50px; 
+	display:block; 
+	color: #fff; 
+	background: #f36d00; 
+	text-align:center; 
+	font-size:16px; 
+	line-height: 50px; 
+	border-radius: 5px;
+	-webkit-transition:  .3s all;
+	   -moz-transition:  .3s all;
+	    -ms-transition:  .3s all;
+	     -o-transition:  .3s all;
+	        transition:  .3s all;
+}
+#back-to-top i:hover{
+	background:#175ea7;
 }

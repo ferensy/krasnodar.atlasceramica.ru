@@ -15,9 +15,10 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" href="css/main-css.css">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&amp;subset=cyrillic" rel="stylesheet">
-
+<!-- <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/up-button.js"></script> -->
 
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,30 +31,40 @@
 <body>
 <div class="container">
 	<div class="row top-block">
-		<div class="col-md-2 ">
+		<div class="col-md-6 col-lg-2 text-center">
 			<a href="/" class="logo"></a>
 			<div class="text-logo"> плитка, сантехника, мебель<br /> и напольные покрытия</div>
 		</div>
-		<div class="col-md-2 text-center">
+		<div class="col-md-6 col-lg-2 text-center">
 			<div class="city">КРАСНОДАР</div>
 			<div class="head-phone">
 				<span>+7 (812)</span> 313-26-12<br />
 				<span>+7 (981)</span> 102-72-42
 			</div>
 		</div>
-		<div class="col-md-6 text-center">
-			<nav class="top-menu">
-				<ul class="list-inline">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Гарантия и Возврат</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Оплата</a></li>
-					<li><a href="#">Как купить</a></li>
-					<li><a href="#">Доставка</a></li>
-				</ul>
+		<div class="col-md-10 col-lg-6 text-center">
+			<nav class="top-menu navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#infomenu1">
+						Инф
+						</button>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse" id="infomenu1">
+					<ul class="list-inline nav navbar-nav" >
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Гарантия и Возврат</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Оплата</a></li>
+						<li><a href="#">Как купить</a></li>
+						<li><a href="#">Доставка</a></li>
+					</ul>
+				</div>
+
 			</nav>
 		</div>
-		<div class="col-md-2">
+		<div class=" col-md-2 col-lg-2">
 			<a href="/#" class="cart-block">2 товара<br /><span>14024 р.</span></a>
 		</div>
 	</div>
@@ -65,13 +76,13 @@
 				<div class="col-md-9">
 					<nav >
 						<ul class="list-inline goods-menu">
-							<li><a href="">Производители</a></li>
-							<li><a href="">Акции</a></li>
-							<li><a href="">Плитка</a></li>
-							<li><a href="">Ламинат</a></li>
-							<li><a href="">Паркет</a></li>
-							<li><a href="">Линолеум</a></li>
-							<li><a href="">Сопутствующие товары</a></li>
+							<li><a href="#">Производители</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Плитка</a></li>
+							<li><a href="#">Ламинат</a></li>
+							<li><a href="#">Паркет</a></li>
+							<li><a href="#">Линолеум</a></li>
+							<li><a href="#">Сопутствующие товары</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -79,14 +90,471 @@
 					<div>
 						<form>
 							<input type="search" placeholder="Поиск по сайту" class="search-field" >
-							<button type="submit" class="search-submit" > 
+							<button type="submit" class="search-submit fa fa-search" >
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="row main-field">
+		<div class="container main-blok-p">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="row type-block">
+						<div class="col-md-5 main-blok-gray">
+							<div class="title-main-block">Плитка</div>
+							<ul>
+								<li><a href="#">APE Ceramica</a></li>
+								<li><a href="#">Azori</a></li>
+								<li><a href="#">Caesar</a></li>
+								<li><a href="#">Gambarelli</a></li>
+								<li><a href="#">Grazia</a></li>
+								<li><a href="#">Keros</a></li>
+								<li><a href="#">Lars ceramica</a></li>
+								<li><a href="#">Mirage Ceramica</a></li>
+								<li><a href="#">Realonda</a></li>
+								<li><a href="#">Vallelunga</a></li>
+							</ul>
+
+						</div>
+						
+						<div class="col-md-7 right-block-p pl-bg">
+							<div class="cell">
+								<div>Смотреть всех производителей плитки</div>
+								<a href="" class="pereiti">Перейти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/plitka1.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Baldocer керамическая плитка Boticcino Cream 44,7x44,7</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Baldoser</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/plitka1.jpg" alt=""></a>
+								<a href="#" class="plitka-lable">Baldocer керамическая плитка Boticcino Cream 44,7x44,7</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Baldoser</a>
+										<div class="clear"></div>
+									</div>
+										<a href="#" class="more">Подробнее</a>
+										<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/plitka1.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Baldocer керамическая плитка Boticcino Cream 44,7x44,7</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Baldoser</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row hit-block">
+				<div class="col-md-3">
+					<div class="hit-title text-center"><span>Керамическая плитка</span><br />Хиты продаж</div>
+				</div>
+				<div class="col-md-3">
+					<a href="" class="hit-img"><img src="img/plitka1.jpg" alt=""></a>
+					<a href="#" class="plitka-lable">Baldocer керамическая плитка Boticcino Cream 44,7x44,7</a>
+					<div class="price">764 р. / шт.</div>
+					<div class="price-sale">925 р.</div>		
+				</div>
+				<div class="col-md-3">
+					<a href="#" class="hit-img"><img src="img/plitka1.jpg" alt=""></a>
+					<a href="#" class="plitka-lable">Baldocer керамическая плитка Boticcino Cream 44,7x44,7</a>
+					<div class="price">764 р. / шт.</div>
+					<div class="price-sale">925 р.</div>		
+				</div>
+				<div class="col-md-3">
+					<a href="#" class="hit-img"><img src="img/plitka1.jpg" alt=""></a>
+					<a href="#" class="plitka-lable">Baldocer керамическая плитка Boticcino Cream 44,7x44,7</a>
+					<div class="price">764 р. / шт.</div>
+					<div class="price-sale">925 р.</div>		
+				</div>
+			</div>
+			<div class="row main main-blok-l">
+				<div class="col-md-5">
+					<div class="row type-block">
+						<div class="col-md-5 main-blok-gray">
+							<div class="title-main-block">Ламинат</div>
+							<ul>
+								<li><a href="#">Berry Alloc</a></li>
+								<li><a href="#">Dolce Flooring</a></li>
+								<li><a href="#">Egger</a></li>
+								<li><a href="#">EPI Alsafloor</a></li>
+								<li><a href="#">Finefloor</a></li>
+								<li><a href="#">HARO (ламинат)</a></li>
+								<li><a href="#">Kronospan</a></li>
+								<li><a href="#">Kronotex</a></li>
+								<li><a href="#">MEISTER</a></li>
+								<li><a href="#">Tarkett (ламинат)</a></li>
+							</ul>
+						</div>
+						
+						<div class="col-md-7 right-block-p lm-bg">
+							<div class="cell">
+								<div>Смотреть всех производителей Ламината</div>
+								<a href="" class="pereiti">Перейти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+									</div>
+										<a href="#" class="more">Подробнее</a>
+										<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row manuf-block">
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/49.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/66.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/68.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/122.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/196.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/197.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/208.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/209.png" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/326.jpg" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/309.jpg" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/337.jpg" alt="">
+				</div>
+				<div class="col-md-2 text-center manuf-img">
+					<img src="img/338.jpg" alt="">
+				</div>
+			</div>
+			<div class="row main main-blok-pr">
+				<div class="col-md-5">
+					<div class="row type-block">
+						<div class="col-md-5 main-blok-gray">
+							<div class="title-main-block">Паркет</div>
+							<ul>
+								<li><a href="#">Befag (Бефаг)</a></li>
+								<li><a href="#">Haro</a></li>
+								<li><a href="#">KARELIA</a></li>
+								<li><a href="#">SINTEROS</a></li>
+								<li><a href="#">Tarkett</a></li>
+								<li><a href="#">TILO (паркет)</a></li>
+							</ul>
+						</div>
+						<div class="col-md-7 right-block-p pr-bg">
+							<div class="cell">
+								<div>Смотреть всех производителей Паркета</div>
+								<a href="" class="pereiti">Перейти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+									</div>
+										<a href="#" class="more">Подробнее</a>
+										<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row hit-block">
+				<div class="col-md-3">
+					<div class="hit-title text-center"><span>Керамическая плитка</span><br />Хиты продаж</div>
+				</div>
+				<div class="col-md-3">
+					<a href="" class="hit-img"><img src="img/2.jpg" alt=""></a>
+					<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+					<div class="price">764 р. / шт.</div>
+					<div class="price-sale">925 р.</div>		
+				</div>
+				<div class="col-md-3">
+					<a href="#" class="hit-img"><img src="img/2.jpg" alt=""></a>
+					<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+					<div class="price">764 р. / шт.</div>
+					<div class="price-sale">925 р.</div>		
+				</div>
+				<div class="col-md-3">
+					<a href="#" class="hit-img"><img src="img/2.jpg" alt=""></a>
+					<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+					<div class="price">764 р. / шт.</div>
+					<div class="price-sale">925 р.</div>		
+				</div>
+			</div>
+			<div class="row main main-blok-l">
+				<div class="col-md-5">
+					<div class="row type-block">
+						<div class="col-md-5 main-blok-gray">
+							<div class="title-main-block">Линолеум</div>
+							<ul>
+								<li><a href="#">Tarkett (Линолеум)</a></li>
+								<li><a href="#">Синтерос</a></li>
+							</ul>
+						</div>
+						
+						<div class="col-md-7 right-block-p li-bg">
+							<div class="cell">
+								<div>Смотреть всех производителей Линолеум</div>
+								<a href="" class="pereiti">Перейти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+									</div>
+										<a href="#" class="more">Подробнее</a>
+										<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 main-p-wrap">
+							<div>
+								<a href="#"><img src="img/2.jpg" alt=""></a>
+								<div class="sale">Скидка -30%</div>
+								<a href="#" class="plitka-lable">Egger H1007 Дуб паркетный тёмный 7x192x1292</a>
+								<div>
+									<div class="price-wrap">
+										<div class="price">764 р. / шт.</div>
+										<a href="#" class="manuf-plitka">Egger</a>
+										<div class="clear"></div>
+										<div class="price-sale">925 р.</div>
+										<div class="clear"></div>
+									</div>
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="buy">Купить</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+<footer class="container">
+	<div class="row footer1">
+		<div class="col-md-2">
+			<a href="/" class="logo-gray"></a>
+			<ul>
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Гарантия и возврат</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Оплата</a></li>
+				<li><a href="#">Как купить</a></li>
+				<li><a href="#">Доставка</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul style="margin-top: 18px;">
+				<li><a href="#">Производители</a></li>
+				<li><a href="#">Акции</a></li>
+				<li><a href="#">Плитка</a></li>
+				<li><a href="#">Ламинат</a></li>
+				<li><a href="#">Паркет</a></li>
+				<li><a href="#">Линолеум</a></li>
+				<li><a href="#">Сопутствующие товары</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<div class="footer-title">Мы в соцсетях</div>
+				<ul>
+					<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i> Vkontakte</a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pinteresto</a></li>
+				</ul>
+			</div>
+		<div class="col-md-5 footer-adress">
+			<div class="footer-title">Мы в соцсетях</div>
+			<div>
+				<p>Интернет-магазин плитки, сантехники, мебели для ванной и напольных покрытий по самым низким ценам</p>
+				<p><span>Телефоны:</span> 8 (812) 313-26-12, 8 (981) 102-72-42</p>
+				<p>197101, Санкт-Петербург, ул. Кронверкская, д.5, БЦ "Троицкий", офис 377</p>
+			</div>
+		</div> 
+	</div>
+	<div class="row footer2">
+		<div class="col-md-12 text-center">
+		© Copyright 2017  <a href="#">www.keramika.ru</a> Email: <a href="#">info@keramika.ru</a>
+		</div>
+	</div>
+</footer>
 
 
 
