@@ -99,16 +99,19 @@
 .block2 form {
   position: relative;
   margin: 0 auto;
+  outline: none;
 }
 .block2 button {
   border: none;
   outline: none;
   border-radius: 18px;
+  outline: none;
 }
 .block2 input {
   width: 100%;
   height: 42px;
   padding-left: 15px;
+  outline: none;
 }
 .block2 button {
 	height: 38px;
@@ -591,6 +594,148 @@ label {
 }
 .manuf-page .collect-good {
 	
+}
+.tumbnail {
+	margin-bottom: 20px;
+}
+.tumbnail img, .good-img img {
+	width: 100%;
+}
+.single-page h1 {
+	font-size: 20px;
+	margin-top: 0;
+}
+.aviability {
+	margin-bottom: 36px;
+}
+.property-table {
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.property-table td {
+	padding: 3px 10px 4px 0;
+}
+
+.property-table td:first-child {
+	color: #939395;
+}
+.photo-int {
+	display: block;
+	background: url(../img/photo-int.png) no-repeat;
+	padding-left: 30px;
+	
+}
+.good-block {
+	background-color: #fff;
+	
+}
+.price-block {
+	height: 90px;
+	position: relative;
+	border-bottom: 1px solid #b4b2b9;
+}
+
+.gd-sale-price, .gd-price, .gd-sale-lable {
+	position: absolute;
+}
+.gd-sale-price {
+	font-size: 20px;
+	color: #939395;
+	top: 10px;
+	left: 15px;
+	text-decoration: line-through;
+}
+.gd-price {
+	font-size: 30px;
+	color: #f36d00;
+	left: 15px;
+	top: 40px;
+}
+.gd-sale-lable {
+	background-color: #f36d00;
+	padding: 4px 10px;
+	top: 46px;
+	right: 15px;
+	color: #fff;
+}
+.quantity-block span {
+	color: #939395;
+	text-align: right;
+}
+.quantity-block {
+	margin-top: 25px;
+}
+.quantity-block input{ 
+	width: 30%;
+	padding: 10px 10px 10px 20px;
+	border-radius: 25px;
+	border: 1px solid #939395;
+	margin-left: 20px;
+	outline: none;
+	margin-bottom: 20px;
+}
+.quantity-block a {
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 20px;
+	border-radius: 25px;
+	background-color: #1f7fe1;
+	color: #fff !important;
+}
+.quantity-block a:hover {
+	
+}
+.printing {
+	background: url(../img/3dprint.png) no-repeat left center;
+	padding-left: 50px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.social-ico {
+	height: 40px;
+}
+.social-ico a {
+	background: url(../img/social-ico.png) no-repeat;
+	
+}
+.ya, .vk, .fb, .ok, .mm, .go {
+	display: block;
+	overflow: hidden;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 3px;
+}
+.vk {
+	background-position: -22px 0 !important;
+}
+.fb {
+	background-position: -44px 0 !important;
+}
+.ok {
+	background-position: -66px 0 !important;
+}
+.mm {
+	background-position: -88px 0 !important;
+}
+.go {
+	background-position: -110px 0 !important;
+}
+.social-ico div {
+	width: 130px;
+	margin: 20px auto;
+}
+
+.single-page .plitka-lable {
+	color: #36353b !important;
+	transition: .5s;
+}
+.single-page .plitka-lable:hover {
+	color: #1f7fe1 !important;
+}
+.single-page .more, .single-page .buy {
+	color: #fff !important;
 }
 
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
