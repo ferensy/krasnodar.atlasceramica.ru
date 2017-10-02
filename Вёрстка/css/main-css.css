@@ -485,6 +485,69 @@ label {
 .articles-row a {
 	color: #36353b !important;
 }
+.cart-table {
+	width: 100%;
+}
+.cart-table td {
+	padding: 5px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-table .quantity input {
+	margin-left: 0;
+}
+.total {
+	font-size: 20px;
+	text-align: right;
+	margin: 20px 0 5px;
+}
+.total  span {
+	font-weight: bold;
+}
+.min-price {
+	text-align: right;
+}
+.cart-table a:hover {
+	text-decoration: none;
+}
+.min-price {
+	color: #cc0000;
+}
+.form-order {
+	margin-top: 40px;
+}
+.form_card input, .form_card textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+	border: 1px solid #e0e0e0; 
+	border-radius: 4px;
+	padding: 10px;
+}
+.form_card textarea {
+	height: 100px;
+}
+.form_card p {
+	margin:0 0 2px;
+}
+.form_card a{
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 40px;
+}
+.quantity input {
+	width: 30px;
+	height: 30px;
+}
+.cart-table .glyphicon-remove {
+	color: #36353b !important;
+}
+.cart-table a .glyphicon-remove:hover {
+	color: #c00; !important;
+}
+.form-order .cart-button {
+	color: #36353b !important;
+}
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
     content: "\2714";             /* Добавляем наш псевдоэлемент */
