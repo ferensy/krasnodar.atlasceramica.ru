@@ -469,6 +469,22 @@ label {
 	width: 20px !important;
 	background-color: #fff;
 }
+.breadcrumbs a {
+	color: #36353b;
+}
+.breadcrumbs {
+	color: #ccc;
+}
+.articles-title {
+	font-size:18px !important;
+	color: #36353b !important;
+}
+.articles-row {
+	margin: 20px 0;
+}
+.articles-row a {
+	color: #36353b !important;
+}
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
     content: "\2714";             /* Добавляем наш псевдоэлемент */
