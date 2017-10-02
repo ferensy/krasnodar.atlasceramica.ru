@@ -545,7 +545,7 @@ label {
 .cart-table a .glyphicon-remove:hover {
 	color: #c00; !important;
 }
-.form-order .cart-button, .collect-button {
+.form-order .cart-button, .collect-button, .cat-tile-label {
 	color: #36353b !important;
 }
 .col-img img {
@@ -554,15 +554,41 @@ label {
 .collect-page .collect-good {
 	margin-bottom: 40px;
 }
+.manuf-page .collect-good {
+	margin-bottom: 30px;
+}
 .collect-good {
 	width: 20%;
 	padding: 0 15px;
 	float: left;
+	position: relative;
 }
 .collect-good img {
 	width: 100%;
 	max-height: 200px;
 }
+.manuf-img-wrap {
+	height: 250px;
+	max-height: 250px;
+	display: table;
+	border: 1px solid #eeeeee;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+}
+.manuf-img-wrap img {
+	width: 100%;
+}
+
+.manuf-img-wrap  div {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+.manuf-page .collect-good {
+	
+}
+
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
     content: "\2714";             /* Добавляем наш псевдоэлемент */
