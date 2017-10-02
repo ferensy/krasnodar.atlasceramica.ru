@@ -536,7 +536,7 @@ label {
 	margin-bottom: 40px;
 }
 .quantity input {
-	width: 30px;
+	width: 50px;
 	height: 30px;
 }
 .cart-table .glyphicon-remove {
@@ -545,8 +545,23 @@ label {
 .cart-table a .glyphicon-remove:hover {
 	color: #c00; !important;
 }
-.form-order .cart-button {
+.form-order .cart-button, .collect-button {
 	color: #36353b !important;
+}
+.col-img img {
+	width: 100%;
+}
+.collect-page .collect-good {
+	margin-bottom: 40px;
+}
+.collect-good {
+	width: 20%;
+	padding: 0 15px;
+	float: left;
+}
+.collect-good img {
+	width: 100%;
+	max-height: 200px;
 }
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
