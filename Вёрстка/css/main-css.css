@@ -545,8 +545,12 @@ label {
 .cart-table a .glyphicon-remove:hover {
 	color: #c00; !important;
 }
-.form-order .cart-button, .collect-button, .cat-tile-label {
+.form-order .cart-button, .collect-button, .cat-tile-label, .single-page {
 	color: #36353b !important;
+}
+.single-page a {
+	color: #1f7fe1 !important;
+	font-size: 14px;
 }
 .col-img img {
 	width: 100%;
