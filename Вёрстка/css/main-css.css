@@ -402,11 +402,24 @@ footer .fa {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #46454a;
 }
-.catalog-title {
+.modal-content label {
+	border-bottom: none;
+	margin-bottom: 10px;
+	color: #36353b;
+}
+.modal-content .label {
+	color: #36353b;	
+}
+.catalog-title, .manuf-title {
 	font-size: 18px !important;
 	font-weight: bold !important;
-	margin: 30px 0;
 	display: block;
+}
+.catalog-title {
+	margin: 30px 0;
+}
+.manuf-title {
+	color: #36353b;	
 }
 .catalog-title:hover {
 	text-decoration: none;
@@ -414,10 +427,13 @@ footer .fa {
 .show-more {
 	color: #b1b1b1 !important;
 }
-
+.color-btn a {
+	color: #36353b;
+}
 /*Чекбоксы меню каталога */ 
 label {
 	display: block;
+	cursor: pointer;
 }
 .checkbox {
     display: none;
@@ -440,9 +456,19 @@ label {
 .label {
 	position: relative;
 	top: 2px;
-	cursor: pointer;
+	
 }
- 
+.glyphicon-remove {
+	font-size: 16px;
+	color: #36353b;
+	position: relative;
+    right: 12px;
+}
+#fer-close {
+	height: 20px !important;
+	width: 20px !important;
+	background-color: #fff;
+}
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
     content: "\2714";             /* Добавляем наш псевдоэлемент */
@@ -462,34 +488,4 @@ label {
 	border-radius: 8px;
 	position: relative;
     top: 3px;
-}
-
-/*Кнопка наверх*/
-/* Back to top button */
-#back-to-top{
-	position:fixed; 
-	z-index: 999; 
-	display:none; 
-	bottom:70px; 
-	right:15px; 
-	cursor:pointer;
-}
-#back-to-top i{
-	width: 50px; 
-	height: 50px; 
-	display:block; 
-	color: #fff; 
-	background: #f36d00; 
-	text-align:center; 
-	font-size:16px; 
-	line-height: 50px; 
-	border-radius: 5px;
-	-webkit-transition:  .3s all;
-	   -moz-transition:  .3s all;
-	    -ms-transition:  .3s all;
-	     -o-transition:  .3s all;
-	        transition:  .3s all;
-}
-#back-to-top i:hover{
-	background:#175ea7;
 }
